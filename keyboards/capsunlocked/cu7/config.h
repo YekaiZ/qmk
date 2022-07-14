@@ -60,6 +60,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+#define RGBLIGHT_LAYERS
+
 #define RGB_DI_PIN F1
 #ifdef RGB_DI_PIN
 #define RGBLIGHT_ANIMATIONS
@@ -70,3 +72,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_VAL_STEP 17
 #define RGBLIGHT_LIMIT_VAL 50
 #endif
+
+
+#define VIAL_KEYBOARD_UID {0x19, 0xFF, 0xE1, 0x15, 0x74, 0x04, 0x69, 0x00}
+#define VIAL_UNLOCK_COMBO_ROWS { 1, 1 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 2 }
+#define VIAL_ENCODER_KEYCODE_DELAY 15

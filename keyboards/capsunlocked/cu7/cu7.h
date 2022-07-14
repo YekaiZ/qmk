@@ -34,3 +34,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     { K20,   K21,  K22 }    \
 }
 
+#define encoder_update(clockwise) encoder_update_user(uint8_t index, clockwise)
